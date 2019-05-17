@@ -9,3 +9,17 @@ $(document).ready(function() {
 // animate on scroll
     new WOW().init();
 });
+
+
+// Team
+
+$(function() {
+    $("#team-members").owlCarousel({
+        items: 3,
+        autoplay: true,
+        smartSpeed: 700,
+        loop: true
+        
+    });
+
+});
