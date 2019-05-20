@@ -37,3 +37,14 @@ $(function() {
         
     });
 });
+
+
+// Stats
+
+$(function() {
+    $('.counter').counterUp({
+        delay: 10,
+        time: 2000
+        // 2 second animation duration
+    });
+});
