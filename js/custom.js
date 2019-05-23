@@ -81,8 +81,12 @@ $(function() {
         if ($(this).scrollTop() < 50) {
             //hide nav bar if at less than 50 pixels
             $("nav").removeClass("vesco-top-nav");
+            // hide back-to-top button with fade effect
+            $("#back-to-top").fadeOut();
         } else {
             $("nav").addClass("vesco-top-nav");
+            // show back-to-top button with fade in effect
+            $("#back-to-top").fadeIn();
         }
 
     });
@@ -102,3 +106,5 @@ $(function() {
 
     });
 });
+
+
