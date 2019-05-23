@@ -242,6 +242,21 @@ h3 {
     padding-right: 0;
 }
 
+.img-wrapper {
+    overflow: hidden;
+}
+
+.img-wrapper img {
+    transition: transform .5s ease;
+}
+/* zoom effect for each image 1.5x */
+.img-wrapper img:hover {
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
+
+
+
 
 
 

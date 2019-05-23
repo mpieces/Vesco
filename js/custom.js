@@ -10,6 +10,18 @@ $(document).ready(function() {
     new WOW().init();
 });
 
+// Work
+
+$(function() {
+
+    $('#work').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+    });
+});
 
 // Team
 
